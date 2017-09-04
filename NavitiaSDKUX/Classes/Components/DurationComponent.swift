@@ -30,13 +30,9 @@ class DurationComponent: ViewComponent {
     
     let digitsStyles: [String: Any] = [
         "color": config.colors.tertiary,
-        "fontSize": 26,
         "fontWeight": "bold",
-        "marginBottom": -4,
     ]
     let abbrStyles: [String: Any] = [
         "color": config.colors.tertiary,
-        "fontSize": 12,
-        "marginBottom": 4,
     ]
 }
